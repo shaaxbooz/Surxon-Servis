@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar">
+    <div class="navbar bg-blue-900 text-white py-3">
         <div class="container flex justify-evenly">
             <div class="left">
                 <a href="/" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Surxon Servis</a>
@@ -20,7 +20,7 @@
                         <option value="Ru">Русский</option>
                     </select>
                 </div>
-                <MoonIcon class="h-6 text-blue-500" />
+                <MoonIcon class="button h-6 text-blue-500" />
                 <SunIcon class="h-6 text-blue-500" />
             </div>
         </div>
@@ -47,4 +47,23 @@ export default {
 </script>
 
 <style scoped>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+select {
+    background: transparent;
+}
+
+select:focus {
+    background: #1e3a8a;
+}
+
+select:hover,
+select:focus {
+    outline: none;
+}
+
 </style>

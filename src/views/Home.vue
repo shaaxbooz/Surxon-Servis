@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-green-600">Home</div>
+  <div class="bg-green-600">Asosiy sahifa</div>
 </template>
 
 <script>

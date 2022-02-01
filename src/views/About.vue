@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow-600">About</div>
+  <div class="bg-yellow-600">Biz haqimizda</div>
 </template>
 
 <script>
